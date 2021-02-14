@@ -15,6 +15,7 @@
 		CC67A43125CD1E0700F7CFE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC67A42F25CD1E0700F7CFE6 /* LaunchScreen.storyboard */; };
 		CC67A43C25CD1E0700F7CFE6 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67A43B25CD1E0700F7CFE6 /* MemopadTests.swift */; };
 		CC67A44725CD1E0700F7CFE6 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67A44625CD1E0700F7CFE6 /* MemopadUITests.swift */; };
+		CC67A45825CD1E5400F7CFE6 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC67A45725CD1E5400F7CFE6 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC67A44225CD1E0700F7CFE6 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC67A44625CD1E0700F7CFE6 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		CC67A44825CD1E0700F7CFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC67A45725CD1E5400F7CFE6 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CC67A42D25CD1E0700F7CFE6 /* Assets.xcassets */,
 				CC67A42F25CD1E0700F7CFE6 /* LaunchScreen.storyboard */,
 				CC67A43225CD1E0700F7CFE6 /* Info.plist */,
+				CC67A45725CD1E5400F7CFE6 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC67A45825CD1E5400F7CFE6 /* MemoViewController.swift in Sources */,
 				CC67A42925CD1E0500F7CFE6 /* ViewController.swift in Sources */,
 				CC67A42525CD1E0500F7CFE6 /* AppDelegate.swift in Sources */,
 				CC67A42725CD1E0500F7CFE6 /* SceneDelegate.swift in Sources */,
